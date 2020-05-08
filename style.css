@@ -1,0 +1,298 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    background-color: rgb(45, 111, 199);
+}
+#headerp{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 4%;
+    display: inline-block;
+    
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.icons{
+    margin-right: 12pt;
+    cursor: pointer;
+    
+}
+#headerimg{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;    
+}
+.btn{
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+   
+}
+#btn{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   }
+
+#divnavigation{
+ 
+}
+#navigationimg{
+    margin-left: 2%;
+    margin-top: 12px;
+    margin-bottom: 11px;
+    width: 250px;
+    height: 50px;
+    margin-right: 2%;
+    display: inline-block;
+}
+
+#navbox{
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 24px;
+   }
+
+#home{
+    background-color: rgb(45, 111, 199);
+    color: white;
+    border-radius: 25px;
+}
+
+.navbtn{
+    display: inline-block;
+    border: none;
+    background-color: white;
+    font-size: 14px;   
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.droplinks{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    font-size: 16px;
+}
+.drop:hover .droplinks{
+    display: block;
+}
+
+.droplinks a{
+    color: black;
+    padding: 12px 6px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.drop:hover .navbtn{
+    background-color: rgb(45, 111, 199);
+    color: white;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.droplinks a:hover{
+    background-color: rgb(45, 111, 199);
+    color: white;
+}
+.drop{
+    position: relative;
+    display: inline-block;
+    margin-right: 4%;
+}
+
+#news{
+    background-color: rgb(45, 111, 199);
+    color: white;
+    height: 25px;
+    padding-top: 7px;
+    width: 1160px;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('Merriweather-Bold.ttf');
+}
+
+#intro{
+    color: rgb(45, 111, 199);
+    display: inline;
+    font-family: Merriweather;
+    width: 110px;
+
+}
+#duction{
+    color: rgba(21, 128, 21, 0.986);
+    display: inline;
+    font-family: Merriweather;
+}
+
+.contentp{
+    line-height: 24px;
+    width: 70%;
+    text-align: justify;
+    color: rgb(104, 100, 100);
+    font-size: 16px;
+}
+
+#progress{
+    background-color: rgb(24, 110, 223);
+    padding: 50px;
+}
+.progressdiv{
+    display: inline-block;
+    padding: 22px;
+}
+.figures{
+    color: white;
+    font-size: 44px;
+    font-family: Merriweather;
+    margin-top: 9px;
+    margin-bottom: 15px;
+}
+.progressdiv-discription{
+    font-family: Merriweather;
+    color: white;
+    display: inline;
+}
+.month{
+    font-family: Merriweather;
+    color: rgb(12, 238, 12);
+    display: inline;
+    font-size: 20px;
+}
+ 
+#wedo{
+    background-color: rgb(248, 245, 245);
+}
+
+.ourdoing{
+    display: inline-block;
+    margin: 14px;
+    box-shadow: rgb(201, 199, 199) 3px 3px 20px;
+    width: 360px;
+    height: 150px;
+   padding-top: 30px;
+   background-color: white;
+}
+
+.diongdescription{
+    font-family: Merriweather;
+    font-size: 20px;
+    color: rgb(51, 122, 216);
+    
+}
+
+.maindiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#project{
+    max-width: 800px;
+   padding-top: 40px;
+    justify-content: center;
+   
+}
+#event{
+    padding-top: 38px;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+
+}
+.mission{
+    font-family: Merriweather;
+    color: rgb(38, 105, 194);
+    text-align: left;
+    margin-left: 13px;
+}
+.misson{
+    display: inline-block;
+    width: 340px;
+    background-color: rgb(242, 241, 247);
+    margin: 10px;
+    padding-left: 20px;
+    height: 75px;
+}
+
+.misson img{
+    display: inline-block;
+    margin-top: 20px;
+}
+.misson h4{
+    display: inline-block;
+    margin: 1px;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: Merriweather;
+    color: rgb(45, 111, 199);
+}
+#event p{
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 70px;
+    line-height: 2em;
+    color: rgb(116, 115, 115);
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;  
+    width: 1200px; 
+    margin-bottom: 70px;
+   margin-top: 70px;
+    padding-left: 30px;
+}
+#footerdiv{
+    display: flex;
+   justify-content: center;
+    background-color: rgb(38, 37, 43);
+    
+}
+#contect{
+   margin-left: 30px;
+   margin-right: 30px;
+}
+#contact p{
+    color: rgb(184, 186, 201);
+    font-size: 0.9em;
+    display: inline;
+    margin-top: 6px;
+    line-height: 30px;
+}
+#contact img{
+    display: inline;
+    
+}
+#links{
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+   margin-right: 30px;
+   width: 350px;
+    
+}
+
+#contactus{
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+   margin-right: 30px;
+    
+}
+#contact us img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
